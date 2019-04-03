@@ -2,9 +2,9 @@
 A Node.js module to handle files from Swedish Autogiro
 ## Installation 
 ```sh
-npm install autogiro --save
-yarn add autogiro
-bower install pluralize --save
+npm install @oh77/autogiro --save
+yarn add @oh77/autogiro
+bower install @oh77/autogiro --save
 ```
 ## Usage
 ### Javascript

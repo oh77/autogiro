@@ -1,6 +1,6 @@
 {
   "name": "@oh77/autogiro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Package to handle files from Swedish Autogiro",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,5 +19,8 @@
     "chai": "^4.2.0",
     "mocha": "^6.0.2",
     "typescript": "^3.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
