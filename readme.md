@@ -1,5 +1,5 @@
 # autogiro
-A Node.js module to handle files from Swedish Autogiro
+A Node.js module to handle files from Swedish Autogiro...
 ## Installation 
 ```sh
 npm install autogiro --save
