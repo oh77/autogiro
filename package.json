@@ -6,13 +6,15 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint --project \"./tsconfig.json\"",
     "test": "mocha --reporter spec"
   },
   "keywords": [
     "autogiro"
   ],
   "author": "Andreas Jagelund <andreas@oh77.se>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
@@ -22,5 +24,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@types/node": "^11.13.0",
+    "tslint": "^5.15.0"
   }
 }
