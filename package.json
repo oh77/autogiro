@@ -1,0 +1,23 @@
+{
+  "name": "autogiro",
+  "version": "0.1.0",
+  "description": "Package to handle files from Swedish Autogiro",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "autogiro"
+  ],
+  "author": "Andreas Jagelund <andreas@oh77.se>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "typescript": "^3.4.1"
+  }
+}
