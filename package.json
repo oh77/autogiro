@@ -1,5 +1,5 @@
 {
-  "name": "autogiro",
+  "name": "@oh77/autogiro",
   "version": "0.1.0",
   "description": "Package to handle files from Swedish Autogiro",
   "main": "dist/index.js",
