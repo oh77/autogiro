@@ -10,7 +10,7 @@
     "docs": "typedoc --out docs src",
     "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs",
     "lint": "tslint --project \"./tsconfig.json\"",
-    "test": "mocha --reporter spec"
+    "test": "mocha --recursive --reporter spec"
   },
   "keywords": [
     "autogiro"
